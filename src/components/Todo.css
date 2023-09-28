@@ -1,0 +1,93 @@
+.form{
+    justify-content: center;
+    padding-left: 500px;
+    padding-top: 70px;
+
+}
+
+
+.container{
+    width: 40%;
+    margin-top: 50px;
+    background-color: rgb(18, 16, 16);
+    border: none;
+    padding: 30px;
+    border-radius: 10px;
+    justify-content: center;
+    padding-left: 100px;
+    
+
+}
+
+h1{
+        text-align: centre;
+        color: white;
+        padding-left: 80px;
+
+}
+
+.form-todo{
+    display: flex;
+    flex-direction: row;
+    margin:20px;
+    width: auto;
+
+}
+
+button{
+    margin-left: 10px;
+    background-color: transparent;
+    color: white;
+    border-radius: 5px;
+    padding: 10px;
+    width: 20%;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+
+
+li{
+    margin-bottom: 15px;
+    margin-left: -12px;
+    background-color: black;
+    color: rgb(255, 255, 255);
+    border: none;
+    font-weight:bold;
+    list-style-type: none;
+    border-radius: 5px;
+    padding: 10px;
+
+}
+
+
+.list-items{
+    display: flex;
+    
+}
+
+.list-items .list{
+    flex: 1;
+}
+
+.list-items .icons{
+    padding-left: 5px;
+    font-size: 25px;
+}
+
+#complete{
+    color: red;
+}
+
+#done{
+    color:blue;
+}
+
+#edit{
+    color: grey;
+}
+
+#list-i{
+    text-decoration: line-through;
+    opacity: 0.3;
+}
